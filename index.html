@@ -1,1 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pamela Huerta - Data Analyst</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Estilos -->
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+    header {
+      background-color: #1e3a8a;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      margin: 0.5rem 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 0.2rem 0;
+      font-size: 1.05rem;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      color: #1e3a8a;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #1e3a8a;
+      display: inline-block;
+      padding-bottom: 4px;
+    }
+
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .project {
+      flex: 1 1 250px;
+      background-color: #f0f4ff;
+      padding: 1rem;
+      border-radius: 10px;
+      transition: transform 0.2s;
+    }
+    .project:hover {
+      transform: scale(1.05);
+    }
+    .project h3 {
+      margin-top: 0;
+    }
+    .project p {
+      font-size: 0.95rem;
+    }
+    .project a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #1e3a8a;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .project a:hover {
+      text-decoration: underline;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    .skill-category {
+      flex: 1 1 250px;
+      background-color: #f0f4ff;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    .skill-category h3 {
+      margin-top: 0;
+      color: #1e3a8a;
+    }
+    .skill-category ul {
+      padding-left: 1.2rem;
+    }
+
+    .contact {
+      background-color: #f0f4ff;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    .contact p, .contact a {
+      font-size: 1rem;
+      margin: 0.3rem 0;
+    }
+    .contact a {
+      color: #1e3a8a;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      margin: 2rem 0;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="FOTO.JPG" alt="Pamela Huerta">
+    <h1>Hi there, I'm Pamela 👋</h1>
+    <p>🎯 Data Analyst | Process Optimization & Revenue Management</p>
+    <p>📊 Passionate about data quality, automation, and business insights</p>
+    <p>📍 Based in Mexico | Open to international opportunities 🌎</p>
+  </header>
+
+  <!-- About Me -->
+  <section>
+    <h2>About Me</h2>
+    <p>Junior Data Analyst with experience in process optimization, revenue management, and data quality control. Background in operational and financial environments, focused on transforming raw data into reliable insights that support business decision-making, efficiency, and continuous improvement.</p>
+    <p>Strong interest in analytics roles where I can grow in SQL, Python, data visualization, and business intelligence within international and data-driven teams.</p>
+  </section>
+
+  <!-- Technical Skills -->
+  <section>
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <div class="skill-category">
+        <h3>Data & Analytics</h3>
+        <ul>
+          <li>SQL</li>
+          <li>Python</li>
+          <li>Data Cleaning</li>
+          <li>Data Validation</li>
+          <li>Quality Control</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Tools & Visualization</h3>
+        <ul>
+          <li>Excel</li>
+          <li>Google Sheets</li>
+          <li>Tableau</li>
+          <li>Power BI</li>
+          <li>CRM</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Process & Automation</h3>
+        <ul>
+          <li>Process Optimization</li>
+          <li>Process Automation</li>
+          <li>Reporting & Dashboards</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Movilidad urbana y productividad económica</h3>
+        <p>Caso práctico Tripleten: análisis de movilidad urbana y su relación con productividad.</p>
+        <a href="https://github.com/pamelahuerta9221-droid/Movilidad-urbana-y-productividad-economica-en-ciudades-de-LATAM-Caso-Practico-Tripleten" target="_blank">Ver más</a>
+      </div>
+      <div class="project">
+        <h3>Análisis de desempeño financiero</h3>
+        <p>Resumen ejecutivo de un caso práctico de Tripleten, incluyendo consultas SQL y dashboards.</p>
+        <a href="https://github.com/pamelahuerta9221-droid/-Analisis-del-desempeno-financiero-con-SQL---Resumen-ejecutivo-Caso-Practico-Tripleten" target="_blank">Ver más</a>
+      </div>
+      <div class="project">
+        <h3>Análisis de embudo y retención</h3>
+        <p>Estudio de métricas de retención y embudo de conversión, con visualizaciones de resultados.</p>
+        <a href="https://github.com/pamelahuerta9221-droid/Analisis-de-embudo-y-retencion-para-MercadoLibre---Resumen-ejecutivo-Caso-Practico-Tripleten" target="_blank">Ver más</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / How to Reach Me -->
+  <section>
+    <h2>📫 How to Reach Me</h2>
+    <div class="contact">
+      <p>🔗 <a href="https://www.linkedin.com/in/pamela-huerta-9221/" target="_blank">LinkedIn</a></p>
+      <p>📧 <a href="mailto:pamela.huerta9221@gmail.com">pamela.huerta9221@gmail.com</a></p>
+      <p>📧 <a href="mailto:lp.hernandez@outlook.com">lp.hernandez@outlook.com</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2026 Pamela Huerta. All rights reserved.
+  </footer>
+
+</body>
+</html>
 
